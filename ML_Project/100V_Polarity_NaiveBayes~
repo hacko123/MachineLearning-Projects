@@ -1,0 +1,804 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.NaiveBayes 
+Relation:     100V_Polarity-weka.filters.unsupervised.instance.Normalize-N1.0-L2.0-weka.filters.unsupervised.instance.Normalize-N1.0-L2.0
+Instances:    25000
+Attributes:   127
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                 Class
+Attribute          pos     neg
+                 (0.5)   (0.5)
+===============================
+TV
+  mean           0.0245  0.0244
+  std. dev.      0.0859  0.0888
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+acting
+  mean           0.0493   0.031
+  std. dev.      0.0904  0.0773
+  weight sum      12483   12282
+  precision      0.0001  0.0001
+
+action
+  mean           0.0248   0.029
+  std. dev.      0.0873  0.0978
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+actor
+  mean            0.022  0.0205
+  std. dev.      0.0806  0.0767
+  weight sum      12483   12282
+  precision      0.0005  0.0005
+
+actors
+  mean           0.0357  0.0307
+  std. dev.      0.0896  0.0851
+  weight sum      12483   12282
+  precision      0.0003  0.0003
+
+audience
+  mean           0.0213  0.0198
+  std. dev.      0.0792  0.0783
+  weight sum      12483   12282
+  precision      0.0006  0.0006
+
+awful
+  mean           0.0326  0.0034
+  std. dev.       0.104  0.0331
+  weight sum      12483   12282
+  precision      0.0006  0.0006
+
+back
+  mean           0.0319  0.0338
+  std. dev.      0.0818  0.0863
+  weight sum      12483   12282
+  precision      0.0002  0.0002
+
+bad
+  mean           0.0713  0.0203
+  std. dev.      0.1112  0.0618
+  weight sum      12483   12282
+  precision      0.0002  0.0002
+
+big
+  mean           0.0251  0.0259
+  std. dev.      0.0814  0.0842
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+bit
+  mean           0.0215  0.0304
+  std. dev.      0.0736  0.0897
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+book
+  mean           0.0202  0.0205
+  std. dev.      0.0923  0.0896
+  weight sum      12483   12282
+  precision      0.0007  0.0007
+
+boring
+  mean           0.0306  0.0074
+  std. dev.      0.1018  0.0503
+  weight sum      12483   12282
+  precision      0.0006  0.0006
+
+br
+  mean           0.0961  0.0927
+  std. dev.      0.0913  0.0935
+  weight sum      12483   12282
+  precision      0.0001  0.0001
+
+budget
+  mean           0.0232  0.0128
+  std. dev.      0.0853  0.0662
+  weight sum      12483   12282
+  precision      0.0006  0.0006
+
+cast
+  mean           0.0269  0.0351
+  std. dev.      0.0815  0.0918
+  weight sum      12483   12282
+  precision      0.0003  0.0003
+
+character
+  mean           0.0378  0.0389
+  std. dev.      0.0847  0.0868
+  weight sum      12483   12282
+  precision      0.0002  0.0002
+
+characters
+  mean           0.0397  0.0407
+  std. dev.      0.0852  0.0888
+  weight sum      12483   12282
+  precision      0.0002  0.0002
+
+comedy
+  mean           0.0253  0.0306
+  std. dev.      0.0891  0.0993
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+completely
+  mean           0.0227  0.0149
+  std. dev.      0.0825  0.0687
+  weight sum      12483   12282
+  precision      0.0005  0.0005
+
+didn
+  mean            0.038  0.0251
+  std. dev.      0.0926  0.0773
+  weight sum      12483   12282
+  precision      0.0003  0.0003
+
+director
+  mean           0.0326  0.0266
+  std. dev.      0.0881  0.0799
+  weight sum      12483   12282
+  precision      0.0002  0.0002
+
+doesn
+  mean           0.0351  0.0271
+  std. dev.       0.086   0.077
+  weight sum      12483   12282
+  precision      0.0003  0.0003
+
+don
+  mean           0.0488  0.0351
+  std. dev.      0.0904  0.0809
+  weight sum      12483   12282
+  precision      0.0002  0.0002
+
+effects
+  mean           0.0255  0.0171
+  std. dev.       0.088   0.074
+  weight sum      12483   12282
+  precision      0.0005  0.0005
+
+end
+  mean           0.0368  0.0353
+  std. dev.      0.0839  0.0843
+  weight sum      12483   12282
+  precision      0.0002  0.0002
+
+ending
+  mean           0.0221  0.0227
+  std. dev.      0.0828  0.0835
+  weight sum      12483   12282
+  precision      0.0005  0.0005
+
+fact
+  mean           0.0282   0.026
+  std. dev.      0.0798  0.0787
+  weight sum      12483   12282
+  precision      0.0003  0.0003
+
+feel
+  mean           0.0229  0.0275
+  std. dev.      0.0769  0.0859
+  weight sum      12483   12282
+  precision      0.0003  0.0003
+
+film
+  mean            0.061  0.0679
+  std. dev.       0.067  0.0733
+  weight sum      12483   12282
+  precision      0.0001  0.0001
+
+films
+  mean           0.0359  0.0445
+  std. dev.      0.0881  0.0991
+  weight sum      12483   12282
+  precision      0.0002  0.0002
+
+find
+  mean           0.0278  0.0347
+  std. dev.      0.0796  0.0909
+  weight sum      12483   12282
+  precision      0.0003  0.0003
+
+found
+  mean           0.0239  0.0246
+  std. dev.      0.0818   0.084
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+funny
+  mean           0.0342  0.0328
+  std. dev.      0.0965  0.0983
+  weight sum      12483   12282
+  precision      0.0003  0.0003
+
+girl
+  mean            0.023  0.0232
+  std. dev.      0.0828  0.0849
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+give
+  mean           0.0286  0.0258
+  std. dev.      0.0832  0.0801
+  weight sum      12483   12282
+  precision      0.0003  0.0003
+
+good
+  mean             0.05  0.0526
+  std. dev.       0.072  0.0797
+  weight sum      12483   12282
+  precision      0.0001  0.0001
+
+great
+  mean           0.0273  0.0644
+  std. dev.      0.0687  0.1066
+  weight sum      12483   12282
+  precision      0.0002  0.0002
+
+guy
+  mean           0.0304  0.0173
+  std. dev.      0.0946  0.0717
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+half
+  mean           0.0256  0.0138
+  std. dev.      0.0891  0.0655
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+hard
+  mean            0.024  0.0229
+  std. dev.      0.0796  0.0786
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+horror
+  mean           0.0318  0.0199
+  std. dev.      0.1014  0.0853
+  weight sum      12483   12282
+  precision      0.0005  0.0005
+
+idea
+  mean           0.0259  0.0144
+  std. dev.      0.0884  0.0661
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+interesting
+  mean           0.0289  0.0258
+  std. dev.      0.0887  0.0838
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+isn
+  mean           0.0287  0.0219
+  std. dev.      0.0843  0.0754
+  weight sum      12483   12282
+  precision      0.0003  0.0003
+
+kind
+  mean           0.0259  0.0216
+  std. dev.      0.0832  0.0775
+  weight sum      12483   12282
+  precision      0.0003  0.0003
+
+life
+  mean             0.03  0.0469
+  std. dev.       0.079  0.1003
+  weight sum      12483   12282
+  precision      0.0002  0.0002
+
+long
+  mean           0.0279  0.0266
+  std. dev.      0.0829  0.0818
+  weight sum      12483   12282
+  precision      0.0003  0.0003
+
+lot
+  mean           0.0281  0.0322
+  std. dev.      0.0802  0.0879
+  weight sum      12483   12282
+  precision      0.0003  0.0003
+
+love
+  mean           0.0249  0.0518
+  std. dev.      0.0724  0.1091
+  weight sum      12483   12282
+  precision      0.0002  0.0002
+
+low
+  mean           0.0238  0.0123
+  std. dev.      0.0851  0.0628
+  weight sum      12483   12282
+  precision      0.0006  0.0006
+
+made
+  mean           0.0464  0.0399
+  std. dev.      0.0832  0.0797
+  weight sum      12483   12282
+  precision      0.0001  0.0001
+
+main
+  mean           0.0219  0.0188
+  std. dev.      0.0784  0.0729
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+make
+  mean           0.0481  0.0346
+  std. dev.      0.0846  0.0739
+  weight sum      12483   12282
+  precision      0.0002  0.0002
+
+makes
+  mean           0.0263  0.0351
+  std. dev.      0.0749  0.0884
+  weight sum      12483   12282
+  precision      0.0002  0.0002
+
+making
+  mean           0.0286   0.021
+  std. dev.      0.0847  0.0734
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+man
+  mean           0.0281  0.0373
+  std. dev.       0.082  0.0938
+  weight sum      12483   12282
+  precision      0.0003  0.0003
+
+minutes
+  mean           0.0366  0.0146
+  std. dev.      0.0997  0.0641
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+money
+  mean           0.0319  0.0125
+  std. dev.      0.0977   0.061
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+movie
+  mean           0.0683  0.0591
+  std. dev.      0.0628  0.0674
+  weight sum      12483   12282
+  precision      0.0001  0.0001
+
+movies
+  mean           0.0459  0.0424
+  std. dev.      0.0939  0.0949
+  weight sum      12483   12282
+  precision      0.0002  0.0002
+
+music
+  mean           0.0216  0.0296
+  std. dev.      0.0798  0.0969
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+original
+  mean           0.0299  0.0234
+  std. dev.      0.0961  0.0849
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+part
+  mean           0.0281  0.0301
+  std. dev.      0.0816   0.086
+  weight sum      12483   12282
+  precision      0.0002  0.0002
+
+people
+  mean           0.0458  0.0442
+  std. dev.      0.0883  0.0896
+  weight sum      12483   12282
+  precision      0.0001  0.0001
+
+plot
+  mean            0.051  0.0301
+  std. dev.       0.097  0.0786
+  weight sum      12483   12282
+  precision      0.0002  0.0002
+
+point
+  mean            0.029  0.0209
+  std. dev.       0.085   0.073
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+poor
+  mean           0.0288  0.0081
+  std. dev.      0.0955  0.0507
+  weight sum      12483   12282
+  precision      0.0006  0.0006
+
+pretty
+  mean           0.0329   0.024
+  std. dev.      0.0913  0.0796
+  weight sum      12483   12282
+  precision      0.0003  0.0003
+
+put
+  mean           0.0237  0.0206
+  std. dev.      0.0799  0.0765
+  weight sum      12483   12282
+  precision      0.0005  0.0005
+
+real
+  mean             0.03  0.0358
+  std. dev.       0.082  0.0916
+  weight sum      12483   12282
+  precision      0.0003  0.0003
+
+reason
+  mean           0.0282  0.0147
+  std. dev.      0.0873  0.0636
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+role
+  mean           0.0205  0.0315
+  std. dev.      0.0754  0.0922
+  weight sum      12483   12282
+  precision      0.0003  0.0003
+
+scene
+  mean           0.0351  0.0342
+  std. dev.      0.0877  0.0907
+  weight sum      12483   12282
+  precision      0.0003  0.0003
+
+scenes
+  mean           0.0367   0.033
+  std. dev.      0.0894  0.0866
+  weight sum      12483   12282
+  precision      0.0003  0.0003
+
+screen
+  mean            0.021  0.0231
+  std. dev.      0.0754  0.0801
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+script
+  mean            0.036   0.017
+  std. dev.      0.0976  0.0683
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+sense
+  mean           0.0234  0.0185
+  std. dev.      0.0801  0.0731
+  weight sum      12483   12282
+  precision      0.0005  0.0005
+
+series
+  mean           0.0204  0.0316
+  std. dev.      0.0841  0.1112
+  weight sum      12483   12282
+  precision      0.0005  0.0005
+
+set
+  mean            0.021  0.0223
+  std. dev.      0.0757  0.0782
+  weight sum      12483   12282
+  precision      0.0003  0.0003
+
+show
+  mean            0.034  0.0397
+  std. dev.      0.1008  0.1118
+  weight sum      12483   12282
+  precision      0.0003  0.0003
+
+story
+  mean           0.0432  0.0567
+  std. dev.      0.0787  0.0915
+  weight sum      12483   12282
+  precision      0.0001  0.0001
+
+stupid
+  mean           0.0288   0.006
+  std. dev.      0.0995  0.0466
+  weight sum      12483   12282
+  precision      0.0007  0.0007
+
+supposed
+  mean           0.0246  0.0069
+  std. dev.      0.0881  0.0479
+  weight sum      12483   12282
+  precision      0.0007  0.0007
+
+terrible
+  mean           0.0287  0.0052
+  std. dev.      0.1003  0.0419
+  weight sum      12483   12282
+  precision      0.0007  0.0007
+
+thing
+  mean           0.0407  0.0239
+  std. dev.      0.0927  0.0734
+  weight sum      12483   12282
+  precision      0.0003  0.0003
+
+things
+  mean           0.0267   0.028
+  std. dev.      0.0792  0.0829
+  weight sum      12483   12282
+  precision      0.0002  0.0002
+
+thought
+  mean           0.0296  0.0281
+  std. dev.      0.0846  0.0864
+  weight sum      12483   12282
+  precision      0.0003  0.0003
+
+time
+  mean           0.0474  0.0503
+  std. dev.      0.0728  0.0787
+  weight sum      12483   12282
+  precision      0.0001  0.0001
+
+times
+  mean           0.0235  0.0314
+  std. dev.      0.0772  0.0907
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+wasn
+  mean           0.0271  0.0161
+  std. dev.      0.0882  0.0699
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+waste
+  mean           0.0332  0.0023
+  std. dev.      0.1081  0.0289
+  weight sum      12483   12282
+  precision      0.0007  0.0007
+
+watch
+  mean           0.0412  0.0412
+  std. dev.      0.0875  0.0909
+  weight sum      12483   12282
+  precision      0.0002  0.0002
+
+watching
+  mean           0.0381  0.0289
+  std. dev.      0.0914  0.0829
+  weight sum      12483   12282
+  precision      0.0003  0.0003
+
+woman
+  mean           0.0223  0.0231
+  std. dev.      0.0819  0.0818
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+work
+  mean           0.0292  0.0336
+  std. dev.      0.0803  0.0883
+  weight sum      12483   12282
+  precision      0.0002  0.0002
+
+world
+  mean           0.0206  0.0347
+  std. dev.       0.075  0.1008
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+worse
+  mean            0.027  0.0046
+  std. dev.      0.0964  0.0384
+  weight sum      12483   12282
+  precision      0.0006  0.0006
+
+worst
+  mean           0.0462  0.0044
+  std. dev.      0.1162  0.0357
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+years
+  mean           0.0258  0.0412
+  std. dev.      0.0777  0.0997
+  weight sum      12483   12282
+  precision      0.0003  0.0003
+
+young
+  mean           0.0196  0.0347
+  std. dev.      0.0735  0.0978
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+American
+  mean           0.0176  0.0236
+  std. dev.      0.0767  0.0888
+  weight sum      12483   12282
+  precision      0.0005  0.0005
+
+DVD
+  mean             0.02  0.0267
+  std. dev.        0.08  0.0943
+  weight sum      12483   12282
+  precision      0.0005  0.0005
+
+John
+  mean           0.0157  0.0248
+  std. dev.      0.0743  0.0933
+  weight sum      12483   12282
+  precision      0.0007  0.0007
+
+beautiful
+  mean           0.0112  0.0313
+  std. dev.      0.0597  0.1013
+  weight sum      12483   12282
+  precision      0.0005  0.0005
+
+day
+  mean           0.0189  0.0257
+  std. dev.      0.0732  0.0883
+  weight sum      12483   12282
+  precision      0.0005  0.0005
+
+excellent
+  mean            0.008  0.0339
+  std. dev.        0.05  0.1056
+  weight sum      12483   12282
+  precision      0.0005  0.0005
+
+family
+  mean           0.0182  0.0337
+  std. dev.      0.0776  0.1063
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+father
+  mean            0.013  0.0235
+  std. dev.      0.0664  0.0928
+  weight sum      12483   12282
+  precision      0.0007  0.0007
+
+fun
+  mean           0.0181  0.0317
+  std. dev.      0.0725  0.1008
+  weight sum      12483   12282
+  precision      0.0005  0.0005
+
+job
+  mean           0.0145  0.0272
+  std. dev.      0.0634  0.0887
+  weight sum      12483   12282
+  precision      0.0005  0.0005
+
+perfect
+  mean           0.0069  0.0267
+  std. dev.      0.0478  0.0949
+  weight sum      12483   12282
+  precision      0.0007  0.0007
+
+performance
+  mean           0.0172   0.034
+  std. dev.       0.071  0.1003
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+performances
+  mean           0.0121  0.0264
+  std. dev.      0.0614  0.0911
+  weight sum      12483   12282
+  precision      0.0006  0.0006
+
+place
+  mean           0.0202  0.0225
+  std. dev.      0.0732   0.079
+  weight sum      12483   12282
+  precision      0.0005  0.0005
+
+play
+  mean           0.0176  0.0222
+  std. dev.      0.0736   0.084
+  weight sum      12483   12282
+  precision      0.0005  0.0005
+
+played
+  mean           0.0178   0.027
+  std. dev.      0.0691  0.0864
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+plays
+  mean           0.0161  0.0256
+  std. dev.      0.0685  0.0863
+  weight sum      12483   12282
+  precision      0.0005  0.0005
+
+shows
+  mean            0.016  0.0277
+  std. dev.      0.0689  0.0929
+  weight sum      12483   12282
+  precision      0.0005  0.0005
+
+takes
+  mean           0.0177   0.023
+  std. dev.        0.07  0.0795
+  weight sum      12483   12282
+  precision      0.0004  0.0004
+
+TRUE
+  mean           0.0145  0.0282
+  std. dev.      0.0659  0.0941
+  weight sum      12483   12282
+  precision      0.0006  0.0006
+
+version
+  mean           0.0186  0.0202
+  std. dev.      0.0822  0.0875
+  weight sum      12483   12282
+  precision      0.0007  0.0007
+
+wife
+  mean           0.0173  0.0219
+  std. dev.      0.0766   0.083
+  weight sum      12483   12282
+  precision      0.0005  0.0005
+
+wonderful
+  mean           0.0062   0.031
+  std. dev.      0.0445   0.106
+  weight sum      12483   12282
+  precision      0.0007  0.0007
+
+worth
+  mean            0.021  0.0249
+  std. dev.      0.0787  0.0873
+  weight sum      12483   12282
+  precision      0.0005  0.0005
+
+year
+  mean           0.0196  0.0239
+  std. dev.       0.077  0.0858
+  weight sum      12483   12282
+  precision      0.0005  0.0005
+
+
+
+Time taken to build model: 0.39 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       18873               76.1714 %
+Incorrectly Classified Instances      5904               23.8286 %
+Kappa statistic                          0.5238
+Mean absolute error                      0.2388
+Root mean squared error                  0.4722
+Relative absolute error                 47.7704 %
+Root relative squared error             94.44   %
+Total Number of Instances            24777     
+Ignored Class Unknown Instances                223     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.71      0.186      0.795     0.71      0.75       0.829    pos
+                 0.814     0.29       0.734     0.814     0.772      0.828    neg
+Weighted Avg.    0.762     0.237      0.765     0.762     0.761      0.828
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+  8868  3619 |     a = pos
+  2285 10005 |     b = neg
+
+

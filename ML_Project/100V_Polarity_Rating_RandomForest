@@ -1,0 +1,61 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.RandomForest -I 100 -K 0 -S 1
+Relation:     100V_Polarity_Rating-weka.filters.unsupervised.instance.Normalize-N1.0-L2.0
+Instances:    25000
+Attributes:   128
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Random forest of 100 trees, each constructed while considering 7 random features.
+Out of bag error: 0.6414
+
+
+
+Time taken to build model: 172.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        9368               37.8093 %
+Incorrectly Classified Instances     15409               62.1907 %
+Kappa statistic                          0.2335
+Mean absolute error                      0.146 
+Root mean squared error                  0.2712
+Relative absolute error                 84.8385 %
+Root relative squared error             92.4488 %
+Total Number of Instances            24777     
+Ignored Class Unknown Instances                223     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.96      0.352      0.409     0.96      0.573      0.821    1
+                 0.008     0.003      0.183     0.008     0.015      0.781    2
+                 0.01      0.006      0.168     0.01      0.02       0.778    3
+                 0.023     0.01       0.219     0.023     0.042      0.785    4
+                 0         0          0         0         0          ?        5
+                 0         0          0         0         0          ?        6
+                 0.043     0.021      0.184     0.043     0.069      0.774    7
+                 0.066     0.028      0.245     0.066     0.104      0.786    8
+                 0.028     0.011      0.202     0.028     0.05       0.774    9
+                 0.864     0.334      0.379     0.864     0.527      0.81     10
+Weighted Avg.    0.378     0.143      0.278     0.378     0.248      0.794
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e    f    g    h    i    j   <-- classified as
+ 4809   38   52  111    0    0    0    0    0    0 |    a = 1
+ 2158   17   27   49    0    0    0    0    0    0 |    b = 2
+ 2272   26   25   61    0    0    0    0    0    0 |    c = 3
+ 2526   12   45   62    0    0    0    0    0    0 |    d = 4
+    0    0    0    0    0    0    0    0    0    0 |    e = 5
+    0    0    0    0    0    0    0    0    0    0 |    f = 6
+    0    0    0    0    0    0  106  168   58 2161 |    g = 7
+    0    0    0    0    0    0  131  198   71 2603 |    h = 8
+    0    0    0    0    0    0  119  143   64 1937 |    i = 9
+    0    0    0    0    0    0  219  298  124 4087 |    j = 10
+
+

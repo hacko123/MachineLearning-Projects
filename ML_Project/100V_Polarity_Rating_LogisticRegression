@@ -1,0 +1,97 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.SimpleLogistic -I 0 -M 500 -H 50 -W 0.0
+Relation:     100V_Polarity_Rating-weka.filters.unsupervised.instance.Normalize-N1.0-L2.0
+Instances:    25000
+Attributes:   128
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SimpleLogistic:
+
+Class 0 :
+-1 + 
+[polarity] * 2.58
+
+Class 1 :
+-1 + 
+[polarity] * 1.58
+
+Class 2 :
+-1 + 
+[polarity] * 1.65
+
+Class 3 :
+-1 + 
+[polarity] * 1.77
+
+Class 4 :
+-1 + 
+
+Class 5 :
+-1 + 
+
+Class 6 :
+0.68 + 
+[polarity] * -1.68
+
+Class 7 :
+0.9  + 
+[polarity] * -1.9
+
+Class 8 :
+0.57 + 
+[polarity] * -1.57
+
+Class 9 :
+1.48 + 
+[polarity] * -2.48
+
+
+Time taken to build model: 184.73 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        9737               39.2985 %
+Incorrectly Classified Instances     15040               60.7015 %
+Kappa statistic                          0.2446
+Mean absolute error                      0.1492
+Root mean squared error                  0.27  
+Relative absolute error                 86.6996 %
+Root relative squared error             92.037  %
+Total Number of Instances            24777     
+Ignored Class Unknown Instances                223     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0.368      0.408     1         0.579      0.818    1
+                 0         0          0         0         0          0.781    2
+                 0         0          0         0         0          0.781    3
+                 0         0          0         0         0          0.786    4
+                 0         0          0         0         0          ?        5
+                 0         0          0         0         0          ?        6
+                 0         0          0         0         0          0.773    7
+                 0         0          0         0         0          0.779    8
+                 0         0          0         0         0          0.77     9
+                 1         0.387      0.379     1         0.549      0.802    10
+Weighted Avg.    0.393     0.148      0.155     0.393     0.222      0.791
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e    f    g    h    i    j   <-- classified as
+ 5009    0    0    1    0    0    0    0    0    0 |    a = 1
+ 2250    0    0    1    0    0    0    0    0    0 |    b = 2
+ 2384    0    0    0    0    0    0    0    0    0 |    c = 3
+ 2645    0    0    0    0    0    0    0    0    0 |    d = 4
+    0    0    0    0    0    0    0    0    0    0 |    e = 5
+    0    0    0    0    0    0    0    0    0    0 |    f = 6
+    0    0    0    0    0    0    0    0    0 2493 |    g = 7
+    0    0    0    0    0    0    0    0    0 3003 |    h = 8
+    0    0    0    0    0    0    0    0    0 2263 |    i = 9
+    0    0    0    0    0    0    0    0    0 4728 |    j = 10
+
+

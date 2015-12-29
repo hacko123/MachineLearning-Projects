@@ -1,0 +1,267 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.SimpleLogistic -I 0 -M 500 -H 50 -W 0.0
+Relation:     100V_Polarity-weka.filters.unsupervised.instance.Normalize-N1.0-L2.0-weka.filters.unsupervised.instance.Normalize-N1.0-L2.0
+Instances:    25000
+Attributes:   127
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SimpleLogistic:
+
+Class 0 :
+-0.11 + 
+[TV] * 0.12 +
+[acting] * 0.47 +
+[action] * -0.36 +
+[actor] * 0.34 +
+[actors] * 0.35 +
+[audience] * 0.09 +
+[awful] * 2.58 +
+[bad] * 2.32 +
+[bit] * -0.71 +
+[book] * 0.11 +
+[boring] * 1.86 +
+[br] * 0.39 +
+[budget] * 0.16 +
+[character] * 0.08 +
+[comedy] * -0.22 +
+[completely] * 0.41 +
+[didn] * 0.55 +
+[director] * 0.51 +
+[doesn] * 0.51 +
+[don] * 0.47 +
+[effects] * 0.14 +
+[ending] * -0.09 +
+[feel] * -0.25 +
+[film] * -0.53 +
+[films] * -0.45 +
+[find] * -0.22 +
+[funny] * -0.15 +
+[girl] * 0.08 +
+[good] * -0.74 +
+[great] * -1.95 +
+[guy] * 0.42 +
+[half] * 0.72 +
+[hard] * 0.12 +
+[horror] * 0.33 +
+[idea] * 0.78 +
+[interesting] * 0.29 +
+[isn] * 0.18 +
+[kind] * 0.19 +
+[life] * -0.62 +
+[long] * 0.09 +
+[lot] * -0.35 +
+[love] * -1.16 +
+[low] * 0.55 +
+[made] * 0.27 +
+[main] * 0.22 +
+[make] * 0.81 +
+[makes] * -0.74 +
+[making] * 0.43 +
+[man] * -0.23 +
+[minutes] * 1.22 +
+[money] * 0.97 +
+[movie] * 0.2  +
+[movies] * -0.43 +
+[music] * -0.26 +
+[original] * 0.45 +
+[plot] * 0.89 +
+[point] * 0.47 +
+[poor] * 1.73 +
+[pretty] * 0.31 +
+[reason] * 0.93 +
+[role] * -0.1 +
+[scenes] * 0.12 +
+[script] * 1.2  +
+[sense] * 0.3  +
+[series] * -0.5 +
+[show] * -0.09 +
+[story] * -0.43 +
+[stupid] * 1.57 +
+[supposed] * 1.49 +
+[terrible] * 1.73 +
+[thing] * 0.78 +
+[things] * -0.21 +
+[thought] * -0.12 +
+[time] * -0.7 +
+[times] * -0.4 +
+[wasn] * 0.56 +
+[waste] * 3.06 +
+[watch] * -0.25 +
+[watching] * 0.35 +
+[woman] * 0.31 +
+[work] * -0.13 +
+[world] * -0.73 +
+[worse] * 1.79 +
+[worst] * 3.22 +
+[years] * -0.63 +
+[young] * -0.37 +
+[American] * -0.23 +
+[DVD] * -0.46 +
+[John] * -0.35 +
+[beautiful] * -1.06 +
+[day] * -0.41 +
+[excellent] * -1.96 +
+[family] * -0.46 +
+[father] * -0.25 +
+[fun] * -0.96 +
+[job] * -0.75 +
+[perfect] * -1.73 +
+[performance] * -0.62 +
+[performances] * -0.82 +
+[place] * -0.08 +
+[played] * -0.45 +
+[plays] * -0.31 +
+[shows] * -0.55 +
+[takes] * -0.29 +
+[TRUE] * -0.69 +
+[version] * 0.09 +
+[wonderful] * -1.66 +
+[worth] * -0.39 +
+[year] * -0.09
+
+Class 1 :
+0.11 + 
+[TV] * -0.12 +
+[acting] * -0.47 +
+[action] * 0.36 +
+[actor] * -0.34 +
+[actors] * -0.35 +
+[audience] * -0.09 +
+[awful] * -2.58 +
+[bad] * -2.32 +
+[bit] * 0.71 +
+[book] * -0.11 +
+[boring] * -1.86 +
+[br] * -0.39 +
+[budget] * -0.16 +
+[character] * -0.08 +
+[comedy] * 0.22 +
+[completely] * -0.41 +
+[didn] * -0.55 +
+[director] * -0.51 +
+[doesn] * -0.51 +
+[don] * -0.47 +
+[effects] * -0.14 +
+[ending] * 0.09 +
+[feel] * 0.25 +
+[film] * 0.53 +
+[films] * 0.45 +
+[find] * 0.22 +
+[funny] * 0.15 +
+[girl] * -0.08 +
+[good] * 0.74 +
+[great] * 1.95 +
+[guy] * -0.42 +
+[half] * -0.72 +
+[hard] * -0.12 +
+[horror] * -0.33 +
+[idea] * -0.78 +
+[interesting] * -0.29 +
+[isn] * -0.18 +
+[kind] * -0.19 +
+[life] * 0.62 +
+[long] * -0.09 +
+[lot] * 0.35 +
+[love] * 1.16 +
+[low] * -0.55 +
+[made] * -0.27 +
+[main] * -0.22 +
+[make] * -0.81 +
+[makes] * 0.74 +
+[making] * -0.43 +
+[man] * 0.23 +
+[minutes] * -1.22 +
+[money] * -0.97 +
+[movie] * -0.2 +
+[movies] * 0.43 +
+[music] * 0.26 +
+[original] * -0.45 +
+[plot] * -0.89 +
+[point] * -0.47 +
+[poor] * -1.73 +
+[pretty] * -0.31 +
+[reason] * -0.93 +
+[role] * 0.1  +
+[scenes] * -0.12 +
+[script] * -1.2 +
+[sense] * -0.3 +
+[series] * 0.5  +
+[show] * 0.09 +
+[story] * 0.43 +
+[stupid] * -1.57 +
+[supposed] * -1.49 +
+[terrible] * -1.73 +
+[thing] * -0.78 +
+[things] * 0.21 +
+[thought] * 0.12 +
+[time] * 0.7  +
+[times] * 0.4  +
+[wasn] * -0.56 +
+[waste] * -3.06 +
+[watch] * 0.25 +
+[watching] * -0.35 +
+[woman] * -0.31 +
+[work] * 0.13 +
+[world] * 0.73 +
+[worse] * -1.79 +
+[worst] * -3.22 +
+[years] * 0.63 +
+[young] * 0.37 +
+[American] * 0.23 +
+[DVD] * 0.46 +
+[John] * 0.35 +
+[beautiful] * 1.06 +
+[day] * 0.41 +
+[excellent] * 1.96 +
+[family] * 0.46 +
+[father] * 0.25 +
+[fun] * 0.96 +
+[job] * 0.75 +
+[perfect] * 1.73 +
+[performance] * 0.62 +
+[performances] * 0.82 +
+[place] * 0.08 +
+[played] * 0.45 +
+[plays] * 0.31 +
+[shows] * 0.55 +
+[takes] * 0.29 +
+[TRUE] * 0.69 +
+[version] * -0.09 +
+[wonderful] * 1.66 +
+[worth] * 0.39 +
+[year] * 0.09
+
+
+Time taken to build model: 139.06 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       19384               78.2338 %
+Incorrectly Classified Instances      5393               21.7662 %
+Kappa statistic                          0.5648
+Mean absolute error                      0.2983
+Root mean squared error                  0.3861
+Relative absolute error                 59.6577 %
+Root relative squared error             77.2176 %
+Total Number of Instances            24777     
+Ignored Class Unknown Instances                223     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.756     0.191      0.801     0.756     0.778      0.865    pos
+                 0.809     0.244      0.765     0.809     0.787      0.859    neg
+Weighted Avg.    0.782     0.217      0.783     0.782     0.782      0.862
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 9439 3048 |    a = pos
+ 2345 9945 |    b = neg
+
+

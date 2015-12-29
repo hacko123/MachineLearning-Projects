@@ -1,0 +1,55 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.SimpleLogistic -I 0 -M 5 -H 50 -W 0.0
+Relation:     100V_Rating_Polarity-weka.filters.unsupervised.instance.Normalize-N1.0-L2.0
+Instances:    25000
+Attributes:   128
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SimpleLogistic:
+
+Class 0 :
+-4.38 + 
+[bad] * 4.72 +
+[worst] * 3.67 +
+[rating] * 6.65
+
+Class 1 :
+4.38 + 
+[bad] * -4.72 +
+[worst] * -3.67 +
+[rating] * -6.65
+
+
+Time taken to build model: 6.34 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       23091               93.1953 %
+Incorrectly Classified Instances      1686                6.8047 %
+Kappa statistic                          0.8639
+Mean absolute error                      0.1239
+Root mean squared error                  0.2277
+Relative absolute error                 24.7885 %
+Root relative squared error             45.5454 %
+Total Number of Instances            24777     
+Ignored Class Unknown Instances                223     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.953     0.09       0.915     0.953     0.934      0.979    pos
+                 0.91      0.047      0.95      0.91      0.93       0.977    neg
+Weighted Avg.    0.932     0.068      0.933     0.932     0.932      0.978
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 11902   585 |     a = pos
+  1101 11189 |     b = neg
+
+
